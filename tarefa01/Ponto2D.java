@@ -39,4 +39,9 @@ public class Ponto2D {
     public Ponto2D clone (){
         return new Ponto2D(this);
     }
+
+    public String toString() {
+        return "Ponto2D [x=" + x + ", y=" + y + "]";
+    }
+ 
 }
